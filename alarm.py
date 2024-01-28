@@ -27,7 +27,7 @@ while True:
     current_minute=current_time.strftime('%M')
     current_period=current_time.strftime('%p')
     current_date=current_time.strftime('%d')
-    if current_date==alarm_date and current_period==alarm_period and current_hour==alarm_hour and current_minute==alarm_minute:
+    if current_date == alarm_date and current_period == alarm_period and current_hour == alarm_hour and current_minute == alarm_minute:
         print('*'*10)
         print('| '+'Wake up!'+' |')
         print('*'*10)
